@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQL Murder Mystery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🗡️SQL Murder Mystery🤯</h1>
+        <div id="story">
+            <img src="detective.jpg" alt="Detective" style="width: 100px; float: left; margin-right: 20px;">
+            <p><b>Welcome to the SQL Murder Mystery! A crime has taken place, and the detective needs your help. You must solve the mystery by writing SQL queries to find clues and identify the murderer.</b></p>
+            <p><strong>Clue:</strong> The crime was a murder that occurred sometime on Jan.15, 2018, and it took place in SQL City.</p>
+        </div>
+        <div id="game">
+            <div id="question"></div>
+            <textarea id="sql-query" placeholder="Enter your SQL query here..."></textarea>
+            <button id="execute-query">Execute Query</button>
+            <div id="output"></div>
+            <div id="examples">
+                <h3>Example Queries</h3>
+                <div id="example-queries"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
